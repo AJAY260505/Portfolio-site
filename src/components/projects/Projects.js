@@ -33,14 +33,14 @@ const Projects = () => {
         <ProjectsCard
           title="Real Estate"
           des="An application connecting buyers and sellers, allowing users to register, search listings, and make inquiries, with admin capabilities for managing resources."
-          src={projectThree} // Replace with the correct image path
+          src={projectFour} // Replace with the correct image path
           githubLink="https://github.com/AJAY260505/realestate-react-project"
           websiteLink="https://realestate-react-project.vercel.app/"
         />
         <ProjectsCard
           title="Movie Recommender System"
           des="A web-based movie recommendation system using Streamlit, providing personalized recommendations and dynamically displaying movie posters from TMDb API."
-          src={projectFour} // Replace with the correct image path for this project
+          src={projectThree} // Replace with the correct image path for this project
           githubLink="https://github.com/AJAY260505/movie_recommender_system"
           websiteLink="https://ajaymovierecommendersystem.streamlit.app/"
         />
