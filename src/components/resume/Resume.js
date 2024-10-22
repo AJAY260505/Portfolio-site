@@ -13,10 +13,9 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+        <ul className="grid grid-cols-1 w-full md:grid-cols-2 xl:grid-cols-4">
           <li
             onClick={() =>
               setEducationData(true) &
@@ -26,7 +25,7 @@ const Resume = () => {
             }
             className={`${
               educationData
-                ? "border-designColor rounded-lg"
+                ? "rounded-lg border-designColor"
                 : "border-transparent"
             } resumeLi`}
           >
@@ -40,7 +39,7 @@ const Resume = () => {
               setAchievementData(false)
             }
             className={`${
-              skillData ? "border-designColor rounded-lg" : "border-transparent"
+              skillData ? "rounded-lg border-designColor" : "border-transparent"
             } resumeLi`}
           >
             Professional Skills
@@ -54,7 +53,7 @@ const Resume = () => {
             }
             className={`${
               experienceData
-                ? "border-designColor rounded-lg"
+                ? "rounded-lg border-designColor"
                 : "border-transparent"
             } resumeLi`}
           >
@@ -69,7 +68,7 @@ const Resume = () => {
             }
             className={`${
               achievementData
-                ? "border-designColor rounded-lg"
+                ? "rounded-lg border-designColor"
                 : "border-transparent"
             } resumeLi`}
           >
