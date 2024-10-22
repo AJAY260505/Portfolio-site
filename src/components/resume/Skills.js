@@ -49,7 +49,7 @@ const Skills = () => {
         </div>
         <div className="flex flex-col gap-6">
           {['React', 'Node.js', 'Express.js', 'HTML5', 'CSS3', 'JavaScript'].map((skill, index) => {
-            const percentages = [90, 97, 90, 95, 90, 95];
+            const percentages = [90, 80, 90, 95, 90, 95];
             return (
               <div className="overflow-x-hidden" key={index}>
                 <p className="text-sm font-medium uppercase">{skill}</p>
